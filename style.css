@@ -1,0 +1,35 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQph8Mr1PBt18LlMJcYGShUQE_yynwGa0GBtleK_wJRrzVxs7n");
+}
+
+.navigation > ul > li {
+  float: left;
+  margin: 3px 8px;
+  list-style-type: none;
+  border: 1px dotted gray;
+  padding: 5px;
+  background-color: pink;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.navigation > ul > li:hover{
+  background-color: red;
+}
+
+.clear{
+  clear: both;
+  text-align: center;
+  color: gray;
+  margin: auto;
+}
+
+.pictures{
+  text-align: center;
+  box-shadow: 2px 15px 30px white;
+}
+
+#description {
+  font-family: Arial;
+  text-align: justify;
+}
